@@ -6,12 +6,14 @@ name = "pypi"
 
 
 [packages]
-
+nose = "*"
+notebook = "==4.4.0"
 jupyterlab = "*"
 dask = "*"
 toolz = "*"
-"s3contents" = "*"
-ipython = "*"
+"pgcontents" = "*"
+ipython = { version = "==5.8.0" }
+ipywidgets = "==4.0"
 
 
 [dev-packages]
